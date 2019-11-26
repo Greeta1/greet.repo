@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class person {  
+    String name;  
+            int amount;
+        long total;  
+        void input()  
+        {  
+         Scanner s= new Scanner(System.in);  
+         System.out.println("Person name\n");  
+         name=s.nextLine();   
+         System.out.println("paid amount\n");  
+         amount=s.nextInt();  
+        }  
+        void total()  
+        {  
+            total+=amount;  
+        }  
+        void print()  
+        {  
+            System.out.println("Name of Employee\n"+name);  
+            System.out.println("Totalsalary of Employee\n"+total);  
+        }  
+    public static void main(String[] args)
+    {  
+          
+        person obj = new person();  
+        obj.input();  
+        obj.total();  
+        obj.print();  
+    }  
+      
+}  
