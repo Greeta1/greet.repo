@@ -1,0 +1,16 @@
+public class num
+public static void main(String args[]) {
+      Integer x = 17;
+      for(int i=1;i<=x;i++)
+    {
+      if(i%3==0)
+         System.out.println("fizz"); 
+         if(i%5==0)
+         System.out.println("Buzz"); 
+         if((i%3==0)&&(i%5==0))
+         System.out.println("FizzBuzz"); 
+     System.out.println(i);
+     
+    }
+   }
+}
